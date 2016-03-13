@@ -1,0 +1,304 @@
+﻿/* //////////////// import //////////////// */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+/* //////////////// header //////////////// */
+
+* {
+    font-family: "Noto Sans Japanese", sans-serif;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    /*　▼　ここに背景画像があるよ！　*/
+    background-image: url("https://source.unsplash.com/YjVa-F9P9kk");
+    width: 100%;
+    height: 950px;
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 200px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.top{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* ボタン */
+
+.btn-book {
+    position: relative;
+    background-color: #d23627;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 150px;
+    -webkit-transition: none;
+    transition: none;
+    box-shadow: 0 3px 0 #aa2b20;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    
+    margin: 0;
+    padding: 15px 60px;
+    font-size: 20px;
+
+}
+
+.btn-book:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-book:hover {
+    background-color: #dd392a;
+    box-shadow: 0 3px 0 #b72f22;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-book:active {
+    top: 3px;
+    box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+a .btn-book{
+    color: #fff;
+    text-decoration: none;
+}
+
+a .btn-book:visited {
+    top: 3px;
+    box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+a .btn-book:active {
+    top: 3px;
+    box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* 選択の色 */
+
+::selection {
+    background: #d23627;
+    color: #fff;
+}
+ 
+::-moz-selection {
+    background: #d23627;
+    color: #fff;
+}
+ 
+::-webkit-selection {
+    background: #d23627;
+    color: #fff;
+}
+
+/* テキスト */
+
+h1 {
+    font-size: 120px;
+    color: #f1f1f1;
+
+    text-shadow: -1px -1px black;
+}
+
+h2 {
+    font-size: 20px;
+    color: #f1f1f1;
+
+    text-shadow: -1px -1px black;
+}
+
+h4 {
+    font-size: 50px;
+    color: #f1f1f1;
+
+    text-shadow: -1px -1px black;
+}
+
+h5 {
+    font-size: 46px;
+    color: #f1f1f1;
+
+    text-shadow: -1px -1px black;
+}
+
+a:hover {
+ color: #d23627;
+ text-decoration: none;
+}
+/* //////////////// bootstrap上書き //////////////// */
+
+.navbar{
+    background: #ffffff !important;
+}
+
+.navbar a {
+    color: #1d1d1d !important;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #d23627;
+}
+
+/* //////////////// BOOK TALK //////////////// */
+
+.booktalk{
+    background-color: #f7f7f7;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+/* //////////////// EVENT //////////////// */
+
+.event{
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.btn-book[type=mini]{
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding: 5px 15px;
+}
+
+
+/* //////////////// REPORT //////////////// */
+
+.report {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.report img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* //////////////// JOIN //////////////// */
+
+.join {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background-color: #f7f7f7;
+    text-align: left;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+input[type=name] {
+    width: 100px;
+    box-sizing: border-box;
+}
+
+input[type=mail] {
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.btn-book[type=submit]{
+    font-size: 16px;
+    margin-bottom: 0;
+    padding: 10px 40px;
+}
+
+/* //////////////// footer //////////////// */
+
+footer {
+    background: #1d1d1d;
+    color: #fff;
+    padding: 30px 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+a,li{
+    color: #fff;
+}
+
+/* //////////////// common //////////////// */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: "Oswald", Impact;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+h2 {
+    margin: 5px;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-family: "Oswald", Impact;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: "Oswald", Impact;
+    margin-top: 70px;
+}
+
+
+.bold {
+    font-weight:400;
+}
+
+.white{
+    color: #fff;
+}
+
+.black{
+    color: #1d1d1d;
+}
+
+.center {
+    text-align : center;
+}
+
+.right {
+    text-align : right;
+}
+
+.left {
+    text-align : left;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a img:hover {
+    opacity: 0.8;
+}
